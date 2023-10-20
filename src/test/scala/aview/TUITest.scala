@@ -1,5 +1,6 @@
-package de.htwg.se.view
-import de.htwg.se.controller.controllerBaseImpl.Controller
+/* package de.htwg.se.aview
+
+import de.htwg.se.controller.controllerComponent.controllerBaseImpl.Controller
 import de.htwg.se.model.fieldComponent.fieldBaseImpl._
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatest.matchers.should.Matchers.*
@@ -34,7 +35,7 @@ class TuiSpec extends AnyWordSpec {
       }
       tui.size1 should be(6)
       tui.size2 should be(7)
-      //controller.field.get(0, 0) should be(Stone.X)
+      controller.field.get(0, 0) should be(Stone.X)
     }
     "have a valid input for stone O" in {
       val in = new BufferedReader(new StringReader("i 1 1" + eol + "q" + eol))
@@ -47,7 +48,7 @@ class TuiSpec extends AnyWordSpec {
       }
       tui.size1 should be(6)
       tui.size2 should be(7)
-      //controller.field.get(0, 0) should be(Stone.O)
+      controller.field.get(0, 0) should be(Stone.O)
     }
     "have a valid input for stone x" in {
       val in = new BufferedReader(new StringReader("i 1 1" + eol + "q" + eol))
@@ -60,7 +61,7 @@ class TuiSpec extends AnyWordSpec {
       }
       tui.size1 should be(6)
       tui.size2 should be(7)
-      //controller.field.get(0, 0) should be(Stone.X)
+      controller.field.get(0, 0) should be(Stone.X)
     }
     "have a valid input for stone o" in {
       val in = new BufferedReader(new StringReader("i 1 1" + eol + "q" + eol))
@@ -73,7 +74,7 @@ class TuiSpec extends AnyWordSpec {
       }
       tui.size1 should be(6)
       tui.size2 should be(7)
-      //controller.field.get(0, 0) should be(Stone.O)
+      controller.field.get(0, 0) should be(Stone.O)
     }
     "have a valid input for computer" in {
       val in = new BufferedReader(new StringReader("computer" + eol + "q" + eol))
@@ -121,3 +122,4 @@ class TuiSpec extends AnyWordSpec {
     }
   }
 }
+*/

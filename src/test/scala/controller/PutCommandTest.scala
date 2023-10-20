@@ -1,4 +1,4 @@
-package de.htwg.se.controller.controllerBaseImpl
+package de.htwg.se.controller.controllerComponent.controllerBaseImpl
 
 import de.htwg.se.model.fieldComponent.fieldBaseImpl.Field
 import org.scalatest.wordspec.AnyWordSpec

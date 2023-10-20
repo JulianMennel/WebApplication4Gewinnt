@@ -1,7 +1,7 @@
-package de.htwg.se.controller.controllerBaseImpl
+package de.htwg.se.controller.controllerComponent.controllerBaseImpl
 
-import de.htwg.se.model.fieldComponent.fieldBaseImpl._
 import de.htwg.se.util.Observer
+import de.htwg.se.model.fieldComponent.fieldBaseImpl._
 import org.scalatest.wordspec.AnyWordSpec
 import org.scalatest.matchers.should.Matchers.*
 import de.htwg.se.model.moveComponent.Move
